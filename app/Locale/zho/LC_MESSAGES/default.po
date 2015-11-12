@@ -1,0 +1,447 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: 2015-10-07 18:21-0400\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.8.5\n"
+"Last-Translator: \n"
+"Language: zh\n"
+
+#: Controller/AppController.php:58
+msgid "This action is not authorized."
+msgstr "未授权此操作。"
+
+#: Controller/CharactersController.php:38;76;109
+msgid "Invalid character"
+msgstr "无效字符"
+
+#: Controller/CharactersController.php:54;80
+msgid "The character has been saved"
+msgstr "已保存的字符"
+
+#: Controller/CharactersController.php:57;83
+msgid "The character could not be saved. Please, try again."
+msgstr "存货档案无法删除，请再试一次"
+
+#: Controller/CharactersController.php:112
+msgid "Character deleted"
+msgstr "删除字符"
+
+#: Controller/CharactersController.php:115
+msgid "Character was not deleted"
+msgstr "未删除字符"
+
+#: Controller/CharactersItemsController.php:31;53;85;128;167
+#: Controller/UsersController.php:72
+msgid "You are not a admin. You can't do that."
+msgstr "您不是管理员。你不能这样。"
+
+#: Controller/CharactersItemsController.php:47;103;153
+msgid "Invalid characters item"
+msgstr "无效字符项"
+
+#: Controller/CharactersItemsController.php:71;109
+msgid "The characters item has been saved"
+msgstr "已保存的字符项"
+
+#: Controller/CharactersItemsController.php:76;114
+msgid "The characters item could not be saved. Please, try again."
+msgstr "无法保存的字符项目。请再试一次。"
+
+#: Controller/CharactersItemsController.php:158
+msgid "Characters item deleted"
+msgstr "删除字符项"
+
+#: Controller/CharactersItemsController.php:162
+msgid "Characters item was not deleted"
+msgstr "不删除字符项"
+
+#: Controller/GuildsController.php:37;70;99
+msgid "Invalid guild"
+msgstr "无效的公会"
+
+#: Controller/GuildsController.php:52;74
+msgid "The guild has been saved"
+msgstr "公会已保存"
+
+#: Controller/GuildsController.php:55;77
+msgid "The guild could not be saved. Please, try again."
+msgstr "存货档案无法删除，请再试一次"
+
+#: Controller/GuildsController.php:102
+msgid "Guild deleted"
+msgstr "公会已删除"
+
+#: Controller/GuildsController.php:105
+msgid "Guild was not deleted"
+msgstr "公会未被删除"
+
+#: Controller/ItemsController.php:37;70;99
+msgid "Invalid item"
+msgstr "无效的项目"
+
+#: Controller/ItemsController.php:52;74
+msgid "The item has been saved"
+msgstr "保存该项目"
+
+#: Controller/ItemsController.php:55;77
+msgid "The item could not be saved. Please, try again."
+msgstr "存货档案无法删除，请再试一次"
+
+#: Controller/ItemsController.php:102
+msgid "Item deleted"
+msgstr "專案皮膚已刪除"
+
+#: Controller/ItemsController.php:105
+msgid "Item was not deleted"
+msgstr "不删除项目"
+
+#: Controller/RolesController.php:37;70;99
+msgid "Invalid role"
+msgstr "字段的默认值"
+
+#: Controller/RolesController.php:52;74
+msgid "The role has been saved"
+msgstr "已保存的作用"
+
+#: Controller/RolesController.php:55;77
+msgid "The role could not be saved. Please, try again."
+msgstr "存货档案无法删除，请再试一次"
+
+#: Controller/RolesController.php:102
+msgid "Role deleted"
+msgstr "已删除角色"
+
+#: Controller/RolesController.php:105
+msgid "Role was not deleted"
+msgstr "不删除角色"
+
+#: Controller/UsersController.php:40;92;140
+msgid "Invalid user"
+msgstr "无效用户"
+
+#: Controller/UsersController.php:47
+msgid "You can't view the account of another user."
+msgstr "您不能查看另一个用户的帐户。"
+
+#: Controller/UsersController.php:63;99
+msgid "The user has been saved"
+msgstr "该用户已被保存"
+
+#: Controller/UsersController.php:66;104
+msgid "The user could not be saved. Please, try again."
+msgstr "存货档案无法删除，请再试一次"
+
+#: Controller/UsersController.php:115
+msgid "You can't edit the account of another user"
+msgstr "您不能编辑另一个用户的帐户"
+
+#: Controller/UsersController.php:145
+msgid "User deleted"
+msgstr "用户已删除"
+
+#: Controller/UsersController.php:149
+msgid "User was not deleted"
+msgstr "不会删除用户。"
+
+#: Controller/UsersController.php:154
+msgid "You can't delete the account of another user."
+msgstr "您不能删除另一个用户的帐户。"
+
+#: Controller/UsersController.php:175
+msgid "Invalid username or password, try again."
+msgstr "无效的用户名或密码，再试一次。"
+
+#: Controller/UsersController.php:189
+msgid "You have been successfully registered."
+msgstr "您已成功注册。"
+
+#: Controller/UsersController.php:192
+msgid "You could not register. Please, try again."
+msgstr "你不能注册。请再试一次。"
+
+#: View/Characters/add.ctp:8
+msgid "Add Character"
+msgstr "请输入一个长度最少是 13 的字符"
+
+#: View/Characters/edit.ctp:8
+msgid "Edit Character"
+msgstr "编辑字符"
+
+#: View/Characters/index.ctp:10
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:5 View/Users/view.ctp:48
+msgid "Characters"
+msgstr "字符"
+
+#: View/Characters/index.ctp:26 View/CharactersItems/index.ctp:21
+#: View/Guilds/index.ctp:18 View/Guilds/view.ctp:64 View/Items/index.ctp:20
+#: View/Roles/index.ctp:21 View/Users/index.ctp:19 View/Users/view.ctp:66
+msgid "Actions"
+msgstr "动作"
+
+#: View/Characters/index.ctp:57 View/CharactersItems/index.ctp:35
+#: View/Guilds/index.ctp:28 View/Guilds/view.ctp:83 View/Items/index.ctp:32
+#: View/Roles/index.ctp:34 View/Users/index.ctp:30 View/Users/view.ctp:85
+msgid "View"
+msgstr "查看所有结果"
+
+#: View/Characters/index.ctp:63 View/Characters/view.ctp:17
+#: View/CharactersItems/index.ctp:39 View/CharactersItems/view.ctp:15
+#: View/Guilds/index.ctp:34 View/Guilds/view.ctp:17;84 View/Items/index.ctp:36
+#: View/Items/view.ctp:15 View/Roles/index.ctp:38 View/Roles/view.ctp:15
+#: View/Users/index.ctp:34 View/Users/view.ctp:12;86
+msgid "Edit"
+msgstr "编辑"
+
+#: View/Characters/index.ctp:64 View/Characters/view.ctp:19
+#: View/CharactersItems/index.ctp:40 View/CharactersItems/view.ctp:17
+#: View/Guilds/index.ctp:35 View/Guilds/view.ctp:19;85 View/Items/index.ctp:37
+#: View/Items/view.ctp:16 View/Roles/index.ctp:39 View/Roles/view.ctp:16
+#: View/Users/index.ctp:35 View/Users/view.ctp:13;87
+msgid "Delete"
+msgstr "删除"
+
+#: View/Characters/index.ctp:64 View/Characters/view.ctp:19
+#: View/Guilds/index.ctp:35 View/Guilds/view.ctp:19 View/Items/index.ctp:37
+#: View/Items/view.ctp:16 View/Roles/index.ctp:39 View/Roles/view.ctp:16
+#: View/Users/index.ctp:35 View/Users/view.ctp:13
+msgid "Are you sure you want to delete %s?"
+msgstr "确定删除 %s?"
+
+#: View/Characters/index.ctp:76 View/CharactersItems/index.ctp:51
+#: View/Guilds/index.ctp:47 View/Items/index.ctp:50 View/Roles/index.ctp:52
+#: View/Users/index.ctp:48
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+"頁{:page} 的{:pages}, 顯示{:current} 記錄出 {:count} 總，開始記錄 {:start}, "
+"結束於{:end}"
+
+#: View/Characters/index.ctp:81 View/CharactersItems/index.ctp:56
+#: View/Guilds/index.ctp:52 View/Items/index.ctp:57 View/Roles/index.ctp:59
+#: View/Users/index.ctp:55
+msgid "Previous"
+msgstr "上一篇"
+
+#: View/Characters/index.ctp:83 View/CharactersItems/index.ctp:58
+#: View/Guilds/index.ctp:54 View/Items/index.ctp:59 View/Roles/index.ctp:61
+#: View/Users/index.ctp:57
+msgid "Next"
+msgstr "下一页"
+
+#: View/Characters/view.ctp:11 View/CharactersItems/view.ctp:24
+msgid "Character"
+msgstr "角色"
+
+#: View/Characters/view.ctp:29 View/Guilds/view.ctp:27;55
+#: View/Items/view.ctp:24 View/Roles/view.ctp:23 View/Users/view.ctp:57
+msgid "Name"
+msgstr "用户名"
+
+#: View/Characters/view.ctp:34 View/Roles/view.ctp:11
+msgid "Role"
+msgstr "用户角色"
+
+#: View/Characters/view.ctp:39 View/Guilds/view.ctp:57 View/Users/view.ctp:59
+msgid "Life"
+msgstr "生命"
+
+#: View/Characters/view.ctp:44 View/Guilds/view.ctp:58 View/Users/view.ctp:60
+msgid "Damage"
+msgstr "损坏"
+
+#: View/Characters/view.ctp:49 View/Guilds/view.ctp:59 View/Users/view.ctp:61
+msgid "Level"
+msgstr "级别"
+
+#: View/Characters/view.ctp:54 View/Guilds/view.ctp:60 View/Roles/view.ctp:38
+#: View/Users/view.ctp:62
+msgid "Xp"
+msgstr "级目"
+
+#: View/Characters/view.ctp:59 View/Items/index.ctp:10
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:23
+msgid "Items"
+msgstr "项目"
+
+#: View/Characters/view.ctp:69 View/Guilds/view.ctp:11
+msgid "Guild"
+msgstr "公會"
+
+#: View/Characters/view.ctp:74 View/Guilds/view.ctp:32;62
+#: View/Items/view.ctp:39 View/Roles/view.ctp:43 View/Users/view.ctp:64
+msgid "Description"
+msgstr "描述"
+
+#: View/Characters/view.ctp:79 View/Users/view.ctp:11
+msgid "User"
+msgstr "用戶"
+
+#: View/CharactersItems/add.ctp:8
+msgid "Add Characters Item"
+msgstr "增加字元"
+
+#: View/CharactersItems/edit.ctp:8
+msgid "Edit Characters Item"
+msgstr "编辑字符项"
+
+#: View/CharactersItems/index.ctp:11
+msgid "Characters Items"
+msgstr "字符的项目"
+
+#: View/CharactersItems/index.ctp:12
+msgid "Add"
+msgstr "添加"
+
+#: View/CharactersItems/index.ctp:40 View/CharactersItems/view.ctp:17
+msgid "Are you sure you want to delete this?"
+msgstr "你确定删除这个？"
+
+#: View/CharactersItems/view.ctp:11
+msgid "Characters Item"
+msgstr "字符项"
+
+#: View/CharactersItems/view.ctp:29 View/Items/view.ctp:11
+msgid "Item"
+msgstr "编辑菜单"
+
+#: View/Guilds/add.ctp:8
+msgid "Add Guild"
+msgstr "添加公会"
+
+#: View/Guilds/edit.ctp:8
+msgid "Edit Guild"
+msgstr "编辑协会"
+
+#: View/Guilds/index.ctp:10
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:14
+msgid "Guilds"
+msgstr "公会"
+
+#: View/Guilds/view.ctp:46
+msgid "Members"
+msgstr "成员"
+
+#: View/Guilds/view.ctp:54 View/Users/view.ctp:19;56
+msgid "Id"
+msgstr "Id"
+
+#: View/Guilds/view.ctp:56 View/Users/view.ctp:58
+msgid "Role Id"
+msgstr "Role Id"
+
+#: View/Guilds/view.ctp:61 View/Users/view.ctp:63
+msgid "Guild Id"
+msgstr "Guild Id"
+
+#: View/Guilds/view.ctp:63 View/Users/view.ctp:65
+msgid "User Id"
+msgstr "User Id"
+
+#: View/Guilds/view.ctp:85 View/Users/view.ctp:87
+msgid "Are you sure you want to delete # %s?"
+msgstr "确定删除 %1$s ?"
+
+#: View/Items/add.ctp:8
+msgid "Add Item"
+msgstr "添加商品"
+
+#: View/Items/edit.ctp:8
+msgid "Edit Item"
+msgstr "编辑信息"
+
+#: View/Items/view.ctp:29 View/Roles/view.ctp:33
+msgid "Tier"
+msgstr "一級"
+
+#: View/Items/view.ctp:34
+msgid "Price"
+msgstr "价格"
+
+#: View/Roles/add.ctp:8
+msgid "Add Role"
+msgstr "新增身分"
+
+#: View/Roles/edit.ctp:8
+msgid "Edit Role"
+msgstr "编辑角色"
+
+#: View/Roles/index.ctp:10 View/Themed/Cakestrap/Elements/menu/side_menu.ctp:32
+msgid "Roles"
+msgstr "用户组"
+
+#: View/Roles/view.ctp:28
+msgid "Path"
+msgstr "Path"
+
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:7;16;25;34;43
+msgid "List"
+msgstr "列表"
+
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:9;18;27;36;45
+msgid "New"
+msgstr "新"
+
+#: View/Themed/Cakestrap/Elements/menu/side_menu.ctp:41 View/Users/index.ctp:10
+msgid "Users"
+msgstr "用户列表"
+
+#: View/Users/add.ctp:8
+msgid "Add User"
+msgstr "新增用戶"
+
+#: View/Users/edit.ctp:8
+msgid "Edit User"
+msgstr "编辑用户"
+
+#: View/Users/login.ctp:15
+msgid "Please enter your username and password"
+msgstr "请输入用户名和密码"
+
+#: View/Users/login.ctp:25
+msgid "Login"
+msgstr "登录"
+
+#: View/Users/register.ctp:14
+msgid "Please enter your username, password and email to register"
+msgstr "请输入您的用户名、 密码和电子邮件注册"
+
+#: View/Users/view.ctp:24
+msgid "Username"
+msgstr "用户名"
+
+#: View/Users/view.ctp:29
+msgid "Email"
+msgstr "﻿邮件地址"
+
+#: View/Users/view.ctp:34
+msgid "Gold"
+msgstr "金牌"
+
+#: View/Users/view.ctp:99
+msgid "New Character"
+msgstr "新行字元"
+
+#: Model/Character.php:validation for field name;validation description
+#: Model/Guild.php:validation name Model/Item.php:validation
+#: Model/Role.php:validation Model/User.php:validation username;validation
+#: password
+msgid "notBlank"
+msgstr "notBlank"
+
+#: Model/Character.php:validation for field role_id;validation life;validation
+#: damage;validation level;validation xp;validation guild_id;validation user_id
+#: Model/CharactersItem.php:validation character_id;validation item_id
+#: Model/Item.php:validation tier;validation price Model/Role.php:validation xp
+#: Model/User.php:validation gold
+msgid "numeric"
+msgstr "numeric"

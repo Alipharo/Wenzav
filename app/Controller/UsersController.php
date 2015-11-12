@@ -162,7 +162,7 @@ class UsersController extends AppController {
 
             if ($this->User->save($this->request->data)) {
                 $u = $this->User->read(null, $this->User->getInsertId());
-                $this->send_mail($d['User']['email'], $d['User']['username'], $this->User->getInsertID(), false);
+                $this->send_mail($u['User']['email'], $u['User']['username'], $this->User->getInsertID(), false);
 
                 $this->Session->setFlash(__('You have been successfully registered. You should now go activate your account'), 'flash/success');
                 $this->redirect(array('controller' => 'characters', 'action' => 'index'));

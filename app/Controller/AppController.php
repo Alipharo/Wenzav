@@ -44,7 +44,7 @@ class AppController extends Controller
     
     public function beforeFilter()
     {
-        if(!$this->Session->read('Auth.User.active') && $this->Session->check('Auth.User')){
+        if(isset($user) && $user['id'] != null && $user['active'] == 0){
             $this->Session->setFlash(__('Ce compte n\'a pas encore été activer.'), 'flash/error');
         }
         

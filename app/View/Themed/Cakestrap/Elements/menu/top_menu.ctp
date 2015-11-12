@@ -35,14 +35,18 @@
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Language <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-<?php echo $this->I18n->flagSwitcher(array('class' => 'languages', 'id' => 'language-switcher')); ?>
+                    <?php echo $this->I18n->flagSwitcher(array('class' => 'languages', 'id' => 'language-switcher')); ?>
                 </ul>
             </li>
             <li class="active"> 
-                    <?php echo $this->Html->link("About", '/pages/about.php'); ?>
+                <?php echo $this->Html->link("About", '/pages/about.php'); ?>
             </li>
             <li>
-                <?= $this->Html->link(__('Resend mail'), array('controller' => 'users', 'action' => 'send_mail', $this->Session->read('Auth.User.email'), $this->Session->read('Auth.User.username'), $this->Session->read('Auth.User.id'))) ?>
+                <?php
+                if ($this->Session->check('Auth.User') && $this->Session->read('Auth.User.active') == 0) {
+                    $this->Html->link(__('Resend mail'), array('controller' => 'users', 'action' => 'send_mail', $this->Session->read('Auth.User.email'), $this->Session->read('Auth.User.username'), $this->Session->read('Auth.User.id')));
+                }
+                ?>
             </li>
         </ul><!-- /.nav navbar-nav -->
     </div><!-- /.navbar-collapse -->

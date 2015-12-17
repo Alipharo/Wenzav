@@ -34,16 +34,64 @@ class CharacterFixture extends CakeTestFixture {
  */
 	public $records = array(
 		array(
-			'id' => 1,
-			'name' => 'Lorem ipsum dolor sit amet',
-			'role_id' => 1,
-			'life' => 1,
-			'damage' => 1,
-			'level' => 1,
-			'xp' => 1,
-			'guild_id' => 1,
-			'description' => 'Lorem ipsum dolor sit amet, aliquet feugiat. Convallis morbi fringilla gravida, phasellus feugiat dapibus velit nunc, pulvinar eget sollicitudin venenatis cum nullam, vivamus ut a sed, mollitia lectus. Nulla vestibulum massa neque ut et, id hendrerit sit, feugiat in taciti enim proin nibh, tempor dignissim, rhoncus duis vestibulum nunc mattis convallis.',
-			'user_id' => 1
+			'id' => '1',
+			'name' => 'EmperorNiger',
+			'role_id' => '5',
+			'life' => '50',
+			'damage' => '5',
+			'level' => '2',
+			'xp' => '135',
+			'guild_id' => '4',
+			'description' => 'The Niger rule them all.',
+			'user_id' => '14'
+		),
+		array(
+			'id' => '2',
+			'name' => 'John Snow',
+			'role_id' => '4',
+			'life' => '767',
+			'damage' => '256',
+			'level' => '57',
+			'xp' => '37849',
+			'guild_id' => '4',
+			'description' => 'I know nothing.',
+			'user_id' => '16'
+		),
+		array(
+			'id' => '3',
+			'name' => 'Norbert',
+			'role_id' => '1',
+			'life' => '120',
+			'damage' => '100',
+			'level' => '4',
+			'xp' => '768',
+			'guild_id' => '2',
+			'description' => 'Norbert the dog & destroyer',
+			'user_id' => '15'
+		),
+		array(
+			'id' => '4',
+			'name' => 'Johny',
+			'role_id' => '1',
+			'life' => '1000',
+			'damage' => '10',
+			'level' => '3',
+			'xp' => '204',
+			'guild_id' => '1',
+			'description' => 'Le barbare Johny kill everything!',
+			'user_id' => '14'
+		),
+		array(
+			'id' => '5',
+			'name' => 'Alipharo',
+			'role_id' => '4',
+			'life' => '1000',
+			'damage' => '200',
+			'level' => '34',
+			'xp' => '243124231',
+			'guild_id' => '4',
+			'description' => 'Bonjour',
+			'user_id' => '4'
 		),
 	);
 

@@ -23,7 +23,7 @@
             <fieldset>
 
                 <div class="form-group">
-                    <?php echo $this->Form->input('name', array('class' => 'ui-autocomplete', 'id' => 'autocomplete')); ?>
+                    <?php echo $this->Form->input('name', array('class' => 'form-control', 'id' => 'autocomplete')); ?>
                 </div><!-- .form-group -->
 
                 <?php echo $this->Form->submit('Submit', array('class' => 'btn btn-large btn-primary')); ?>

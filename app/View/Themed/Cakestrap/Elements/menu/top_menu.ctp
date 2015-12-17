@@ -49,5 +49,9 @@
                 ?>
             </li>
         </ul><!-- /.nav navbar-nav -->
+
+        <a href="/cakephp-2.7.3/pages/apropos" target="click">
+            <embed src="/cakephp-2.7.3/img/Wenzav.svg" width="50" type="image/svg+xml"/>
+        </a>
     </div><!-- /.navbar-collapse -->
 </nav><!-- /.navbar navbar-default -->

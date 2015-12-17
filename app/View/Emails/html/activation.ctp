@@ -20,6 +20,6 @@
         <title><?php echo $this->fetch('title'); ?></title>
     </head>
     <p>Hello, <?= $username ?>.</p>
-    <p>Here is your activation link : <?= $this->Html->link('Activate', $this->Html->url($link, true)) ?>
+    <p>Here is your activation link : <?= $this->Html->link('activate', $this->Html->url($link, true)) ?>
     <p>Bye.</p>
 </html>

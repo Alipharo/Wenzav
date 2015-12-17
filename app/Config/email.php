@@ -44,7 +44,7 @@ class EmailConfig {
         'host' => 'ssl://smtp.gmail.com',
         'port' => 465,
         'username' => 'wenzavGames@gmail.com',
-        'password' => 'wenzav42',
+        'password' => 'wenzav123',
         'transport' => 'Smtp'
     );
     public $default = array(

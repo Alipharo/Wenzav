@@ -11,6 +11,12 @@
             <h3>Cours : 420-267 MO Développer un site Web et une application pour Internet</h3>
             <h3>Session : Automne 2015, Collège Montmorency</h3>
             <hr/>
+            <p style="text-align: center;">
+            <a href="/cakephp-2.7.3/pages/apropos">
+                <embed src="/cakephp-2.7.3/img/Wenzav.svg" width="500" type="image/svg+xml"/>
+            </a>
+            </p>
+            <hr/>
             <p>Lors de la création de mon site web, j'ai utiliser Cake PHP, MySQL, Uniform Server Zore, HTML, CSS, PHP, Ajax, JQuery
             ainsi que quelque autres outils.</p>
             <p>Dans ce site web, vous trouverez ces nouvelle fonctionnaliter : un system de qui envoit de mail pour confirmer votre 
